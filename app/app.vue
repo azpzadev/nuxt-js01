@@ -12,7 +12,7 @@
           <span class="divider-line"></span>
         </div>
         <h1 class="hero-title">မခန့်ကေသွယ်</h1>
-        <p class="hero-date">၂၀၂၆ ခုနှစ် မေလ ၂၃ ရက်</p>
+        <p class="hero-date">၂၀၂၆ ခုနှစ် မေလ ၃၀ ရက်</p>
         <a href="#invitation" class="hero-btn">ဖိတ်ကြားလွှာ ကြည့်ရှုရန်</a>
       </div>
     </section>
@@ -44,21 +44,22 @@
         <div class="event-item">
           <div class="event-icon">❤️</div>
           <h3 class="event-label">မင်္ဂလာနေ့ရက်</h3>
-          <p class="event-value">၁၃၈၈-ခုနှစ်၊ နယုန်လဆန်း(၈)ရက်</p>
-          <p class="event-value">23.5.2026 (စနေနေ့)</p>
+          <p class="event-value">၁၃၈၈-ခုနှစ်၊ နယုန်လပြည့်နေ့</p>
+          <p class="event-value">30.5.2026 (စနေနေ့)</p>
         </div>
         <div class="event-divider"></div>
         <div class="event-item">
           <div class="event-icon">❤️</div>
           <h3 class="event-label">မင်္ဂလာအချိန်</h3>
-          <p class="event-value">နံနက် (၈:၀၀) နာရီမှ (၁၁:၀၀) နာရီအထိ</p>
+          <p class="event-value">နေ့လည် (၂:၀၀) နာရီမှ ညနေ (၅:၀၀) နာရီအထိ</p>
         </div>
         <div class="event-divider"></div>
         <div class="event-item">
           <div class="event-icon">❤️</div>
           <h3 class="event-label">မင်္ဂလာနေရာ</h3>
-          <p class="event-value">"မဏိကဉ္စနာ ခန်းမ"</p>
-          <p class="event-value">မြင်းခြံမြို့</p>
+          <p class="event-value">"ဒေါ်မင်္ဂလာခန်းမ"</p>
+          <p class="event-value">၈၄လမ်း၊ ၄၂လမ်း x ၄၃လမ်းကြား</p>
+          <p class="event-value">မန္တလေးမြို့</p>
         </div>
       </div>
     </section>
