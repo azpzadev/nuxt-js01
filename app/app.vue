@@ -5,14 +5,14 @@
     <section class="hero" :style="{ backgroundImage: 'url(/image/weeding_01.jpg)' }">
       <div class="hero-overlay">
         <p class="hero-sub">သဘောတူညီမှုနှင့် ချစ်ခြင်းမေတ္တာဖြင့်</p>
-        <h1 class="hero-title">ဒေါက်တာသက်ဇင်းထူး</h1>
+        <h1 class="hero-title">ဒေါက်တာသက်ဇင်ထူး</h1>
         <div class="hero-divider">
           <span class="divider-line"></span>
           <span class="divider-heart">♡</span>
           <span class="divider-line"></span>
         </div>
         <h1 class="hero-title">မခန့်ကေသွယ်</h1>
-        <p class="hero-date">၂၀၂၅ ခုနှစ် ဇွန်လ ၂၁ ရက်</p>
+        <p class="hero-date">၂၀၂၆ ခုနှစ် မေလ ၂၃ ရက်</p>
         <a href="#invitation" class="hero-btn">ဖိတ်ကြားလွှာ ကြည့်ရှုရန်</a>
       </div>
     </section>
@@ -30,6 +30,36 @@
           alt="မင်္ဂလာပွဲ ဖိတ်ကြားလွှာ"
           class="invitation-img"
         />
+      </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section class="event-section">
+      <div class="section-header">
+        <p class="section-label">Wedding Ceremony</p>
+        <h2 class="section-title">စုလျားရစ်ပတ်ထိမ်းမြားမင်္ဂလာအစီအစဉ်</h2>
+        <div class="title-ornament">✦ ✦ ✦</div>
+      </div>
+      <div class="event-card">
+        <div class="event-item">
+          <div class="event-icon">❤️</div>
+          <h3 class="event-label">မင်္ဂလာနေ့ရက်</h3>
+          <p class="event-value">၁၃၈၈-ခုနှစ်၊ နယုန်လဆန်း(၈)ရက်</p>
+          <p class="event-value">23.5.2026 (စနေနေ့)</p>
+        </div>
+        <div class="event-divider"></div>
+        <div class="event-item">
+          <div class="event-icon">❤️</div>
+          <h3 class="event-label">မင်္ဂလာအချိန်</h3>
+          <p class="event-value">နံနက် (၈:၀၀) နာရီမှ (၁၁:၀၀) နာရီအထိ</p>
+        </div>
+        <div class="event-divider"></div>
+        <div class="event-item">
+          <div class="event-icon">❤️</div>
+          <h3 class="event-label">မင်္ဂလာနေရာ</h3>
+          <p class="event-value">"မဏိကဉ္စနာ ခန်းမ"</p>
+          <p class="event-value">မြင်းခြံမြို့</p>
+        </div>
       </div>
     </section>
 
@@ -55,7 +85,7 @@
 
     <!-- Footer -->
     <footer class="wedding-footer">
-      <p class="footer-names">ဒေါက်တာသက်ဇင်းထူး ♡ မခန့်ကေသွယ်</p>
+      <p class="footer-names">ဒေါက်တာသက်ဇင်ထူး ♡ မခန့်ကေသွယ်</p>
       <p class="footer-wish">ကျွန်ုပ်တို့၏ မင်္ဂလာပွဲသို့ ကြွရောက်ပေးသည့်အတွက် အထူးကျေးဇူးတင်ပါသည်</p>
     </footer>
 
@@ -206,6 +236,52 @@ body {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* ── Event Details Section ── */
+.event-section {
+  padding: 4rem 1.25rem;
+  background: #fdf8f3;
+}
+
+.event-card {
+  max-width: 560px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.1);
+  border: 1px solid #f5e6d3;
+}
+
+.event-item {
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+.event-icon {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.event-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #b5845a;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.event-value {
+  font-size: 1rem;
+  color: #3d2b1f;
+  line-height: 1.8;
+}
+
+.event-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #f5deb3, transparent);
+  margin: 0.25rem 0;
 }
 
 /* ── QR Section ── */
